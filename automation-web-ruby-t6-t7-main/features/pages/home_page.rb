@@ -26,17 +26,17 @@ class Home < SitePrism::Page
         end
     end
 
-    def validade_text_partners(partners)
-        partners_title = find('#parceiros > h3')
-        if partners_title.text.eql?(partners) != true
-            raise "Expect element: #{partners}, but returned: #{partners_title.text}"
+    def validate_text_parceiros(parceiros)
+        title_parceiros = find('#parceiros > h3')
+        if title_parceiros.text.eql?(parceiros) != true
+            raise "Expect element: #{parceiros}, but returned: #{title_parceiros.text}"
         end
     end
 
-    def validade_text_partners(faleconosco)
-        faleconosco_title = find('#faleConosco > div > h3')
-        if faleconosco_title.text.eql?(faleConosco) != true
-            raise "Expect element: #{faleConosco}, but returned: #{faleconosco_title.text}"
+    def validate_text_faleconosco(faleconosco)
+        title_faleconosco = find('#faleConosco > div > h3')
+        if title_faleconosco.text.eql?(faleconosco) != true
+            raise "Expect element: #{faleconosco}, but returned: #{title_faleconosco.text}"
         end
     end
     

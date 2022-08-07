@@ -13,7 +13,7 @@ Quando('clico em {string}') do |sobrenos|
 end
   
   Então('visualizo o menu {string}') do |title_sobrenos|
-    home.validate_text_sobrenos(title_sobrenos)
+    home.validade_text_sobrenos(title_sobrenos)
     #sleep 3
    end
 
@@ -23,26 +23,26 @@ end
   end
   
   Então('vejo o texto {string}') do |texto_depoimentos|
-    home. home.validate_text_depoimentos(texto_depoimentos)
+  home.validade_text_depoimentos(texto_depoimentos)
     #sleep 3
   end
 
-  Quando('acesso o menu {string}') do |partners|
-   home.click_link(partners)
+  Quando('acesso o menu {string}') do |parceiros|
+  home.click_link(parceiros)
    #sleep 3
   end
   
-  Então('consulto o menu {string}') do |partners_title|
-    home.validate_text_partners(partners_title)
+  Então('consulto o menu {string}') do |title_parceiros|
+  home.validate_text_parceiros(title_parceiros)
     #sleep 3
   end
 
   Quando('carregar o menu {string}') do |faleconosco|
-    home.click_link(faleconosco)
+  home.click_link(faleconosco)
     #sleep 3
   end
   
-  Então('devo ver o menu {string}') do |faleconosco_title|
-    home.validate_text_faleconosco(faleconosco_title)
+  Então('devo ver o menu {string}') do |title_faleconosco|
+  home.validate_text_faleconosco(title_faleconosco)
     #sleep 3
   end
