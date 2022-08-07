@@ -6,3 +6,4 @@ Projeto de automação web utilizando Ruby + Cucumber.
 
 * [Ruby](https://rubyinstaller.org/downloads/) - Instalar a versão recomendada marcada por => da sessão <b>WITH DEVKIT</b>
 
+8 [Chromedriver] ()
