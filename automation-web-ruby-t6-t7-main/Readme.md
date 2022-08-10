@@ -40,6 +40,7 @@ gem 'site_prism'
 gem 'pry'
 
 * Criar pasta env.rb com os requerimentos abaixo:
+
 require 'capybara/cucumber'
 require 'capybara/rspec'
 require 'selenium-webdriver'
@@ -48,17 +49,18 @@ require 'pry'
 
 
 - Para instalar as dependências utilize o comando
+
 "bundler install"
 
 
 * Ainda na pasta env.rb, incluir o código abaixo:
 
-#Markdown
-Capybara.configure do |config|
+
+'Capybara.configure do |config|
     config.default_driver = :selenium_chrome
     config.app_host = "http://www.google.com.br"
     config.default_max_wait_time = 10
-end
+end'
 
 
 
