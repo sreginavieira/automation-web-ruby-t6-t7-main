@@ -1,8 +1,8 @@
-### Automação Ruby + Cucumber+
+# Automação Ruby + Cucumber+
 
 Projeto de automação web utilizando Ruby + Cucumber.
 
-### Pré-requisitos
+## Pré-requisitos
 
 * [Ruby](https://rubyinstaller.org/downloads/) - Instalar a versão recomendada marcada por => da sessão <b>WITH DEVKIT</b>
 
@@ -10,11 +10,11 @@ Projeto de automação web utilizando Ruby + Cucumber.
 - Após baixar o arquivo, salvar o download em C:\Windows\System32
 - Adicioná-lo ao path
 
-# Instalar cucumber através do comando:
+### Instalar cucumber através do comando:
  gem install cucumber
  cucumber --init
 
-# Instalar as seguintes extensões no VSCode
+### Instalar as seguintes extensões no VSCode
  - VSCODE-ICONS
  - VSCODE RUBY
  - SNIPPETS AND SYNTAX HIGHLIGHT FOR GHERKIN
@@ -24,12 +24,12 @@ Projeto de automação web utilizando Ruby + Cucumber.
  - FEATURE SYNTAX HIGHLIGHT AND SNIPPETS
  - CUCUMBER (GHERKIN)
 
-# Criar pasta feature
+### Criar pasta feature
  * Criar a subpasta "pages"
  * Criar a subpasta "specs"
 
 
-# Criar arquivo gemfile com as seguintes dependências:
+### Criar arquivo gemfile com as seguintes dependências:
  * source 'https://rubygems.org/'
 
 * gem 'capybara'
@@ -40,17 +40,17 @@ Projeto de automação web utilizando Ruby + Cucumber.
 * gem 'site_prism'
 *gem 'pry'
 
-# Criar pasta env.rb com os requerimentos abaixo:
+### Criar pasta env.rb com os requerimentos abaixo:
 * require 'capybara/cucumber' 
 * require 'capybara/rspec'
 * require 'selenium-webdriver'
 * require 'site_prism'
 * require 'pry'
 
-# Para instalar as dependências utilize o comando
+### Para instalar as dependências utilize o comando
 * bundler install
 
-# Ainda na pasta env.rb, incluir o código abaixo:
+### Ainda na pasta env.rb, incluir o código abaixo:
 * Capybara.configure do |config|
     config.default_driver = :selenium_chrome
     config.app_host = "http://www.google.com.br"
