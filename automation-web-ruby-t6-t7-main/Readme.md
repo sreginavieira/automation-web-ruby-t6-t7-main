@@ -12,7 +12,10 @@ Projeto de automação web utilizando Ruby + Cucumber.
 
 * Instalar cucumber através do comando: <br/>
 
-``` gem install cucumber
+``` 
+gem install cucumber
+```
+```
     cucumber --init 
 ```
 
