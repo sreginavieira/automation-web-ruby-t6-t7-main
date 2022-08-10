@@ -33,8 +33,8 @@ Projeto de automação web utilizando Ruby + Cucumber.
 
 source 'https://rubygems.org/'
 
-gem 'capybara'
-gem 'chromedriver-helper'
+gem 'capybara' <p>
+gem 'chromedriver-helper' <p> 
 gem 'cucumber'
 gem 'rspec'
 gem 'selenium-webdriver'
