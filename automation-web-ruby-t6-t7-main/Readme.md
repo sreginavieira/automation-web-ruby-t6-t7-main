@@ -30,21 +30,34 @@ Projeto de automação web utilizando Ruby + Cucumber.
 
 
 * Criar arquivo gemfile com as seguintes dependências:
-source 'https://rubygems.org/'
+
+- source 'https://rubygems.org/'
+
 gem 'capybara'
+
 gem 'chromedriver-helper'
+
 gem 'cucumber'
+
 gem 'rspec'
+
 gem 'selenium-webdriver'
+
 gem 'site_prism'
+
 gem 'pry'
 
 * Criar pasta env.rb com os requerimentos abaixo:
 
+
 require 'capybara/cucumber'
+
 require 'capybara/rspec'
+
 require 'selenium-webdriver'
+
 require 'site_prism'
+
 require 'pry'
 
 
