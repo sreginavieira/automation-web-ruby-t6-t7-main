@@ -29,20 +29,20 @@ end
 
   Quando('acesso o menu {string}') do |parceiros|
   home.click_link(parceiros)
-   #sleep 3
+   sleep 3
   end
   
   Então('consulto o menu {string}') do |title_parceiros|
   home.validate_text_parceiros(title_parceiros)
-    #sleep 3
+    sleep 3
   end
 
   Quando('carregar o menu {string}') do |faleconosco|
   home.click_link(faleconosco)
-    #sleep 3
+    sleep 3
   end
   
   Então('devo ver o menu {string}') do |title_faleconosco|
   home.validate_text_faleconosco(title_faleconosco)
-    #sleep 3
+    sleep 3
   end
