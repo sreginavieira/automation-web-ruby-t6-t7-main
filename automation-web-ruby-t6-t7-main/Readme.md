@@ -7,8 +7,8 @@ Projeto de automação web utilizando Ruby + Cucumber.
 * [Ruby](https://rubyinstaller.org/downloads/) - Instalar a versão recomendada marcada por => da sessão <b>WITH DEVKIT</b>
 
 * [Chromedriver] (https://chromedriver.storage.googleapis.com/index.html) - Instalar a versão correspondente à versão do Google Chrome instalada na máquina
-- Após baixar o arquivo, salvar o download em C:\Windows\System32
-- Adicioná-lo ao path
+ Após baixar o arquivo, salvar o download em C:\Windows\System32
+ Adicioná-lo ao path
 
 ### Instalar cucumber através do comando:
  gem install cucumber
@@ -32,23 +32,23 @@ Projeto de automação web utilizando Ruby + Cucumber.
 ### Criar arquivo gemfile com as seguintes dependências:
  * source 'https://rubygems.org/'
 
-* gem 'capybara'
-* gem 'chromedriver-helper'
-* gem 'cucumber'
-* gem 'rspec'
-* gem 'selenium-webdriver'
-* gem 'site_prism'
-*gem 'pry'
+   gem 'capybara'
+   gem 'chromedriver-helper'
+   gem 'cucumber'
+   gem 'rspec'
+   gem 'selenium-webdriver'
+   gem 'site_prism'
+   gem 'pry'
 
 ### Criar pasta env.rb com os requerimentos abaixo:
-* require 'capybara/cucumber' 
-* require 'capybara/rspec'
-* require 'selenium-webdriver'
-* require 'site_prism'
-* require 'pry'
+  require 'capybara/cucumber' 
+  require 'capybara/rspec'
+  require 'selenium-webdriver'
+  require 'site_prism'
+  require 'pry'
 
 ### Para instalar as dependências utilize o comando
-* bundler install
+ bundler install
 
 ### Ainda na pasta env.rb, incluir o código abaixo:
 * Capybara.configure do |config|
