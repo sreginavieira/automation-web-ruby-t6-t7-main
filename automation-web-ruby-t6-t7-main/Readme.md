@@ -7,16 +7,17 @@ Projeto de automação web utilizando Ruby + Cucumber.
 * [Ruby](https://rubyinstaller.org/downloads/) - Instalar a versão recomendada marcada por => da sessão <b>WITH DEVKIT</b>
 
 * [Chromedriver] (https://chromedriver.storage.googleapis.com/index.html) - Instalar a versão correspondente à versão do Google Chrome instalada na máquina <br/>
-Após baixar o arquivo, salvar o download em C:\Windows\System32<br/>
-Adicioná-lo ao path <p>
+-Após baixar o arquivo, salvar o download em C:\Windows\System32<br/>
+-Adicioná-lo ao path <p>
 
 * Instalar cucumber através do comando: <br/>
 
-``` gem install cucumber ```
-
-```cucumber --init ```
+``` gem install cucumber
+    cucumber --init 
+```
 
 * Instalar as seguintes extensões no VSCode<br/> 
+
  -VSCODE-ICONS<br/>
  -VSCODE RUBY<br/>
  -SNIPPETS AND SYNTAX HIGHLIGHT FOR GHERKIN<br/>
@@ -56,9 +57,7 @@ require 'pry'<br/>
 
 - Para instalar as dependências utilize o comando
 
-```
-bundler install
-
+```bundler install
 ```
 
 * Ainda na pasta env.rb, incluir o código abaixo:
