@@ -57,7 +57,8 @@ require 'pry'<br/>
 
 - Para instalar as dependências utilize o comando
 
-```bundler install
+```
+bundler install
 ```
 
 * Ainda na pasta env.rb, incluir o código abaixo:
