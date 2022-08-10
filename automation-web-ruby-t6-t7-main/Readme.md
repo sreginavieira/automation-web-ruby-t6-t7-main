@@ -1,4 +1,4 @@
-# Automação Ruby + Cucumber+
+### Automação Ruby + Cucumber+
 
 Projeto de automação web utilizando Ruby + Cucumber.
 
@@ -32,26 +32,26 @@ Projeto de automação web utilizando Ruby + Cucumber.
 * Criar arquivo gemfile com as seguintes dependências:
 source 'https://rubygems.org/'
 
-gem 'capybara'
-gem 'chromedriver-helper'
-gem 'cucumber'
-gem 'rspec'
-gem 'selenium-webdriver'
-gem 'site_prism'
-gem 'pry'
+* gem 'capybara'
+* gem 'chromedriver-helper'
+* gem 'cucumber'
+* gem 'rspec'
+* gem 'selenium-webdriver'
+* gem 'site_prism'
+*gem 'pry'
 
 * Criar pasta env.rb com os requerimentos abaixo:
-require 'capybara/cucumber' 
-require 'capybara/rspec'
-require 'selenium-webdriver'
-require 'site_prism'
-require 'pry'
+* require 'capybara/cucumber' 
+* require 'capybara/rspec'
+* require 'selenium-webdriver'
+* require 'site_prism'
+* require 'pry'
 
 - Para instalar as dependências utilize o comando
-bundler install
+* bundler install
 
 * Ainda na pasta env.rb, incluir o código abaixo:
-Capybara.configure do |config|
+* Capybara.configure do |config|
     config.default_driver = :selenium_chrome
     config.app_host = "http://www.google.com.br"
     config.default_max_wait_time = 10
